@@ -1,6 +1,6 @@
 "use strict";
 
-var report = require("../support/report-runs");
+var report = require("../report-runs");
 var config = require("../config");
 var lodash = require("lodash");
 
