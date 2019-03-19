@@ -1,0 +1,21 @@
+{
+  "name": "jasper-tests",
+  "version": "1.0.0",
+  "description": "Tests for Jasper Reports",
+  "main": "",
+  "author": "Tom Sullivan",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.13.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "mocha": "^5.2.0",
+    "promise": "^8.0.2",
+    "request": "^2.88.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/eslint --color *.js */*.js",
+    "start": "./node_modules/.bin/mocha test -b -t 60000 --slow 30000"
+  }
+}
